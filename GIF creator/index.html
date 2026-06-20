@@ -13,7 +13,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-
     <style>
       body {
         padding: 0;
@@ -42,6 +41,7 @@
 
       #typewriter {
         position: absolute;
+        padding-bottom: 2px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -60px);
@@ -94,7 +94,7 @@
     <div id="typewriter"></div>
     <div id="typewriter2"></div>
     <div id="particles-js"></div>
-    <script src="./particles.js"></script>
+    <script src="particles.js"></script>
     <script>
       particlesJS.load("particles-js", "particles.css", function () {
         console.log("callback - particles-js config loaded");
@@ -103,42 +103,34 @@
       new Typewriter("#typewriter", {
         delay: 30,
       })
-        .typeString("Hey there, I'm Cyris 👋")
+        .typeString("Hello world, I'm Oleg")
         .pauseFor(3000)
-        .deleteAll(40)
-        .typeString("I'm a software developer 👨‍💻")
+        .deleteAll(20)
+        .typeString("I build things for the web")
+        .pauseFor(3400)
+        .deleteAll(20)
+        .pauseFor(200)
+        .typeString("And run my own infrastructure")
         .pauseFor(3000)
-        .deleteAll(40)
-        .typeString("I'm a maker 🏗")
-        .pauseFor(3000)
-        .deleteAll(40)
-        .typeString("I'm an infosec enthusiast 🔒")
-        .pauseFor(3000)
-        .deleteAll("natural")
-        .typeString("Check out my work 👇")
-        .pauseFor(4000)
+        .deleteAll(20)
+        .typeString("Welcome to my page!")
         .start();
 
       new Typewriter("#typewriter2", {
-        delay: 40,
+        delay: 30,
       })
         .pauseFor(1000)
         .typeString("Nice to meet you.")
+        .pauseFor(1800)
+        .deleteAll(20)
+        .pauseFor(1400)
+        .typeString("TypeScript, React, Next.js, Node.js")
+        .pauseFor(1300)
+        .deleteAll(20)
+        .pauseFor(1500)
+        .typeString("Docker, Nginx, Linux, VPN")
         .pauseFor(2000)
-        .deleteAll(40)
-        .pauseFor(1000)
-        .typeString("Javascript, NodeJS, React, Express.")
-        .pauseFor(2000)
-        .deleteAll(40)
-        .typeString("RaspberryPi, Arduino, ESP8266, ESP32.")
-        .pauseFor(2000)
-        .deleteAll(40)
-        .typeString("Learning to protect myself and others.")
-        .pauseFor(3000)
-        .deleteAll(40)
-        .pauseFor(200)
-        .typeString("Follow me on twitter @sudo_overflow.")
-        .pauseFor(4000)
+        .deleteAll(20)
         .start();
     </script>
   </body>
