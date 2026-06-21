@@ -41,7 +41,7 @@
 
       #typewriter {
         position: absolute;
-        padding-bottom: 2px;
+        padding-bottom: 3px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -60px);
@@ -76,6 +76,24 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+
+      #welcome-text {
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translate(-50%, 20px);
+        font-size: 3.5rem;
+        line-height: 5rem;
+        color: #fff;
+        text-align: center;
+        font-family: "SF-Pro-Display-Regular", sans-serif;
+        font-weight: 400;
+        z-index: 1;
+        background: white;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     </style>
   </head>
 
@@ -91,6 +109,7 @@
   <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 
   <body>
+    <div id="welcome-text"></div>
     <div id="typewriter"></div>
     <div id="typewriter2"></div>
     <div id="particles-js"></div>
@@ -100,20 +119,27 @@
         console.log("callback - particles-js config loaded");
       });
 
+      const initWelcomeText = (text) => {
+        new Typewriter("#welcome-text", { delay: 30 })
+          .typeString("Enjoy your stay")
+          .start();
+      };
+
       new Typewriter("#typewriter", {
         delay: 30,
       })
         .typeString("Hello world, I'm Oleg")
-        .pauseFor(3000)
+        .pauseFor(2600)
         .deleteAll(20)
         .typeString("I build things for the web")
         .pauseFor(3400)
         .deleteAll(20)
-        .pauseFor(200)
         .typeString("And run my own infrastructure")
-        .pauseFor(3000)
+        .pauseFor(2850)
         .deleteAll(20)
-        .typeString("Welcome to my page!")
+        .callFunction(() => {
+          initWelcomeText();
+        })
         .start();
 
       new Typewriter("#typewriter2", {
@@ -121,17 +147,18 @@
       })
         .pauseFor(1000)
         .typeString("Nice to meet you.")
-        .pauseFor(1800)
+        .pauseFor(1200)
         .deleteAll(20)
-        .pauseFor(1400)
+        .pauseFor(1600)
         .typeString("TypeScript, React, Next.js, Node.js")
-        .pauseFor(1300)
+        .pauseFor(1100)
         .deleteAll(20)
-        .pauseFor(1500)
+        .pauseFor(1800)
         .typeString("Docker, Nginx, Linux, VPN")
-        .pauseFor(2000)
+        .pauseFor(1200)
         .deleteAll(20)
         .start();
     </script>
+    <script></script>
   </body>
 </html>
