@@ -19,13 +19,19 @@ containers to RFID cards.
 # 🧑🏼‍💻 &nbsp; Let's keep in touch
 
 <p align="center">
+
   <a href="https://www.linkedin.com/in/oleg-pityukin-5455863a7/">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
+
+
   <a href="mailto:oleg.pityukin@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
+
+
   <a href="https://discord.gg/GuHRYbbt">
     <img src="https://skillicons.dev/icons?i=discord" />
   </a>
+
 </p>
