@@ -6,11 +6,10 @@ Interested in software architecture, self-hosted infrastructure, networking, and
 
 I enjoy building things, breaking things, and understanding how they work under the hood.
 
-
+&nbsp;
 
 ## 🧰 My toolbox
-
-
 [![My Skills](https://skillicons.dev/icons?i=js,ts,next,react,redux,tailwind,github,gitlab,nodejs,vscode,kali,html,css,scss)](https://skillicons.dev)
 
+&nbsp;
 ---
