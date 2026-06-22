@@ -8,11 +8,9 @@ I enjoy building things, breaking things, and understanding how they work under 
 
 
 
-## 🧰 &nbsp;My toolbox 
+## 🧰 My toolbox
 
----
 
 [![My Skills](https://skillicons.dev/icons?i=js,ts,next,react,redux,tailwind,github,gitlab,nodejs,vscode,kali,html,css,scss)](https://skillicons.dev)
-
 
 ---
