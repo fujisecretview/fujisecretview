@@ -20,6 +20,7 @@
         background-color: #0d1116;
       }
 
+      /* This GIF was created using SF Pro. Because the font can’t be included in this repository, please install it locally if you want identical rendering. */
       @font-face {
         font-family: "SF Pro";
         src: url("./fonts/SF-Pro-Display-Regular.otf") format("opentype");
@@ -119,45 +120,47 @@
         console.log("callback - particles-js config loaded");
       });
 
-      const initWelcomeText = (text) => {
-        new Typewriter("#welcome-text", { delay: 30 })
-          .typeString("Enjoy your stay")
-          .start();
-      };
+      setTimeout(() => {
+        const initWelcomeText = (text) => {
+          new Typewriter("#welcome-text", { delay: 30 })
+            .typeString("Enjoy your stay")
+            .start();
+        };
 
-      new Typewriter("#typewriter", {
-        delay: 30,
-      })
-        .typeString("Hello world, I'm Oleg")
-        .pauseFor(2600)
-        .deleteAll(20)
-        .typeString("I build things for the web")
-        .pauseFor(3100)
-        .deleteAll(17)
-        .typeString("And run my own infrastructure")
-        .pauseFor(2740)
-        .deleteAll(18)
-        .callFunction(() => {
-          initWelcomeText();
+        new Typewriter("#typewriter", {
+          delay: 30,
         })
-        .start();
+          .typeString("Hello world, I'm Oleg")
+          .pauseFor(1900)
+          .deleteAll(20)
+          .typeString("I build things for the web")
+          .pauseFor(2600)
+          .deleteAll(17)
+          .typeString("And run my own infrastructure")
+          .pauseFor(2400)
+          .deleteAll(18)
+          .callFunction(() => {
+            initWelcomeText();
+          })
+          .start();
 
-      new Typewriter("#typewriter2", {
-        delay: 30,
-      })
-        .pauseFor(1000)
-        .typeString("Nice to meet you.")
-        .pauseFor(1200)
-        .deleteAll(20)
-        .pauseFor(1600)
-        .typeString("TypeScript, React, Next.js, Node.js")
-        .pauseFor(800)
-        .deleteAll(17)
-        .pauseFor(1800)
-        .typeString("Docker, Nginx, Linux, VPN")
-        .pauseFor(1050)
-        .deleteAll(18)
-        .start();
+        new Typewriter("#typewriter2", {
+          delay: 30,
+        })
+          .pauseFor(700)
+          .typeString("Nice to meet you.")
+          .pauseFor(900)
+          .deleteAll(20)
+          .pauseFor(1400)
+          .typeString("TypeScript, React, Next.js, Node.js")
+          .pauseFor(600)
+          .deleteAll(17)
+          .pauseFor(1600)
+          .typeString("Docker, Nginx, Linux, VPN")
+          .pauseFor(1000)
+          .deleteAll(17)
+          .start();
+      }, 1500);
     </script>
     <script></script>
   </body>
