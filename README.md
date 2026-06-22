@@ -3,10 +3,10 @@
 **`whoami`**: I'm Frontend Engineer focused on React, TypeScript, and modern web applications.
 Interested in software architecture, self-hosted infrastructure, networking, and security. 
 
-I enjoy building things, breaking things, and understanding how they work under the hood.
+I enjoy __building__ things, __breaking__ things, and understanding how they work under the hood.
 
 
-## 🧰 My toolbox
+# 🧰 My toolbox
 [![My Skills](https://skillicons.dev/icons?i=js,ts,next,react,redux,tailwind,github,gitlab,nodejs,vscode,kali,html,css,scss)](https://skillicons.dev)
 
 &nbsp;
