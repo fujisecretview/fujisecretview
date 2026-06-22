@@ -1,6 +1,6 @@
 ![Header](https://github.com/fujisecretview/fujisecretview/raw/main/Header.gif)
 # ✌️ &nbsp;Hi people
-**`whoami`**: Frontend Engineer focused on React, TypeScript, and modern web applications.
+**`whoami`**: Frontend Engineer, based in Italy 📍, focused on React, TypeScript, and modern web applications.
 Interested in software architecture, self-hosted infrastructure, networking,
 and security.
 
