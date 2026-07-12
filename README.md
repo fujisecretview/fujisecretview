@@ -5,7 +5,7 @@ Interested in software architecture, self-hosted infrastructure, networking,
 and security.
 
 I enjoy __building__ things, __breaking__ things, and understanding how they work
-under the hood: from component re-renders to network protocols, from Docker
+under the hood: from components to network protocols, from Docker
 containers to RFID cards.
 
 
